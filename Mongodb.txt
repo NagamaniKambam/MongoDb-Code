@@ -1,0 +1,32 @@
+
+// DB name
+	OmniwyseNotification
+
+// Collection name
+	Users
+
+
+
+db.Users.insertmany([ 
+  
+ 	{ name : 'Nagamani', email_id : 'kambhamnagamani1995@gmail.com', mobile_no : 9856239878, Role : 'user', password : 'mani1234', create_date : Date()},
+    
+ 	{ name : 'Sandhya', email_id : 'sandhya123@gmail.com', mobile_no : 8947683569, Role : 'user', password : 'sandhya123', create_date : Date()},
+  
+	{ name : 'Kalyan', email_id : 'kalyan1234@gmail.com', mobile_no : 9893539878, Role : 'user', password : 'kalyan1234', create_date : Date()}, 
+   
+ 	{ name : 'Upendra', email_id : 'upendra1234@gmail.com', mobile_no : 7989775535, Role : 'user', password : 'upendra1234', create_date : Date()}, 
+   
+ 	{ name : 'Srilekha', email_id : 'srilekhayadhav123@gmail.com', mobile_no : 9844669878, Role : 'user', password : 'srilekha1234', create_date : Date()}, 
+    
+ 	{ name : 'Sandeep', email_id : 'sandeep1234@gmail.com', mobile_no : 8899539878, Role : 'user', password : 'sandeep1234', create_date : Date()},   
+   
+ 	{ name : 'Maneesha', email_id : 'maneesha1234@gmail.com', mobile_no : 9177569865, Role : 'user', password : 'maneesha123      4', create_date : Date()}, 
+   
+ 	{ name : 'Vinay', email_id : 'vinay1234@gmail.com', mobile_no : 9893539878, Role : 'user', password : 'vinay1234', create_date : Date()},  
+   
+ 	{ name : 'Siresha', email_id : 'siresha1234@gmail.com', mobile_no : 7799258693, Role : 'user', password : 'siresha1234', create_date : Date()}, 
+   
+ 	{ name : 'Vamshi', email_id : 'kalyan1234@gmail.com', mobile_no : 9879856811, Role : 'user', password : 'vamshi1234', create_date : Date()} 
+ 
+  ]);
