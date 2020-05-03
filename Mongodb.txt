@@ -7,26 +7,26 @@
 
 
 
-db.Users.insertmany([ 
+db.Users.insertMany([ 
   
- 	{ name : 'Nagamani', email_id : 'kambhamnagamani1995@gmail.com', mobile_no : 9856239878, is_admin : 'false', password : 'mani1234', create_date : Date()},
+ 	{ name : 'Nagamani', email_id : 'kambhamnagamani1995@gmail.com', mobile_no : 9856239878, is_admin: Boolean(false), password : 'mani1234', create_date : Date()},
     
- 	{ name : 'Sandhya', email_id : 'sandhya123@gmail.com', mobile_no : 8947683569, is_admin : 'false', password : 'sandhya123', create_date : Date()},
+ 	{ name : 'Sandhya', email_id : 'sandhya123@gmail.com', mobile_no : 8947683569, is_admin: Boolean(false), password : 'sandhya123', create_date : Date()},
   
-	{ name : 'Kalyan', email_id : 'kalyan1234@gmail.com', mobile_no : 9893539878, is_admin : 'false', password : 'kalyan1234', create_date : Date()}, 
+	{ name : 'Kaly$exists: falsean', email_id : 'kalyan1234@gmail.com', mobile_no : 9893539878, is_admin: Boolean(false), password : 'kalyan1234', create_date : Date()}, 
    
- 	{ name : 'Upendra', email_id : 'upendra1234@gmail.com', mobile_no : 7989775535, is_admin : 'false', password : 'upendra1234', create_date : Date()}, 
+ 	{ name : 'Upendra', email_id : 'upendra1234@gmail.com', mobile_no : 7989775535, is_admin: Boolean(false), password : 'upendra1234', create_date : Date()}, 
    
- 	{ name : 'Srilekha', email_id : 'srilekhayadhav123@gmail.com', mobile_no : 9844669878, is_admin : 'false', password : 'srilekha1234', create_date : Date()}, 
+ 	{ name : 'Srilekha', email_id : 'srilekhayadhav123@gmail.com', mobile_no : 9844669878,is_admin: Boolean(false), password : 'srilekha1234', create_date : Date()}, 
     
- 	{ name : 'Sandeep', email_id : 'sandeep1234@gmail.com', mobile_no : 8899539878, is_admin : 'false', password : 'sandeep1234', create_date : Date()},   
+       	{ name : 'Sandeep', email_id : 'sandeep1234@gmail.com', mobile_no : 8899539878, is_admin: Boolean(false), password : 'sandeep1234', create_date : Date()},   
    
- 	{ name : 'Maneesha', email_id : 'maneesha1234@gmail.com', mobile_no : 9177569865, is_admin : 'false', password : 'maneesha123      4', create_date : Date()}, 
+      	{ name : 'Maneesha', email_id : 'maneesha1234@gmail.com', mobile_no : 9177569865, is_admin: Boolean(false), password : 'maneesha123      4', create_date : Date()}, 
    
- 	{ name : 'Vinay', email_id : 'vinay1234@gmail.com', mobile_no : 9893539878, is_admin : 'false', password : 'vinay1234', create_date : Date()},  
+       	{ name : 'Vinay', email_id : 'vinay1234@gmail.com', mobile_no : 9893539878, is_admin: Boolean(false), password : 'vinay1234', create_date : Date()},  
    
- 	{ name : 'Siresha', email_id : 'siresha1234@gmail.com', mobile_no : 7799258693, is_admin : 'false', password : 'siresha1234', create_date : Date()}, 
+       	{ name : 'Siresha', email_id : 'siresha1234@gmail.com', mobile_no : 7799258693, is_admin: Boolean(false), password : 'siresha1234', create_date : Date()}, 
    
- 	{ name : 'Vamshi', email_id : 'kalyan1234@gmail.com', mobile_no : 9879856811, is_admin : 'false', password : 'vamshi1234', create_date : Date()} 
+ 	{ name : 'Vamshi', email_id : 'kalyan1234@gmail.com', mobile_no : 9879856811, is_admin: Boolean(false), password : 'vamshi1234', create_date : Date()} 
  
-  ]);
+  ]);  
